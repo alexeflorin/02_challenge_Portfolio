@@ -28,6 +28,3 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following image shows the web application's appearance and functionality:
 
 ![Florin Alexe portofolio](./assets/images/Project_Portfolio_week_2.png)
-
-###### Code Source 
-[]()
