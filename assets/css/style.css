@@ -1,37 +1,88 @@
 * {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-header h1 {
-display: flexbox;
-flex-direction: row;
-align-items: flex-start;
-font-size: 40px;
-text-align: start;
+.header {
+    padding: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #438aaf;
+    color: #1f2f34;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+.header h2 {
+display: inline;
+}
+.header nav {
+
+    padding-top: 20px;
+    margin-right: 10px;
+    float: right;
+    font-size: 25px;
+
+}
+.header nav ul li {
+
+    display: inline-block;
+    margin-left: 25px;
+
+}
+h2 {
+    display:inline; 
+    padding: 25px;
+
 }
 
-header nav {
-  padding: 30px;
-  text-align: end;
-  background: #13293d;
-  color: #fff;
-  display: flexbox;
-  justify-content: flex-end;
-  background-color: #d8a47f;
-  flex-direction: row;
+
+p {
+    font-size: 16px;
+}
+
+
+
+.float-right {
+    float: left;
+    margin-left: 25px;
+}
+
+.main content {
+    width: 75%;
+    display: block;
+    margin-left: 20px;
+}
+
+
+
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2b6d96;
+    color: #ffffff;
 }
 
 
 
 footer {
-  padding: auto;
-  background-color: #fff;
-  font-size: 20;
-  align-items: normal;
+    display: inline;
+    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center
 }
-footer div {
-  align-items: flex-start;
-  font-size: 40;
-  color: #13293d;
+
+
+footer h2 {
+    font-size: 20px;
 }
+
+@media (min-width: 500px){
+    .contact, 
+    .contact-nav{
+      flex-direction: row;
+    }
+  }
