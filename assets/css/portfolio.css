@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(151, 194, 206);
+}
+
+    
+h1 {
+    justify-content: flex-end;
+    background-position: 50px;
+    padding-left: 50px;
+    padding-right: 5px;
+    margin-right: 50px;
+    background-color:azure;
+    color: rgb(151, 194, 206);
+    font-size: 40px;
+    align-content: center;
+}
+
+nav a { 
+    font-size: 25px;
+    margin-right: 5px;
+    color:azure;
+
+}
+
+
+nav a:hover {
+color: red;
+}
+
+
+aside {
+    flex: 1;
+    background-color :azure;
+    padding: 10px;
+}
+
+section {
+    flex:1;
+    background-color: aqua;
+    padding: 20px;
+    
+
+
+}
+
+
+/* header h1 { 
+    justify-content: flex-end;
+    background-position: 50px;
+    padding-left: 50px;
+    padding-right: 5px;
+    margin-right: 50px;
+    background-color:azure;
+    color: rgb(151, 194, 206);
+    font-size: 40px;
+
+}    */

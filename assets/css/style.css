@@ -1,71 +1,63 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.header {
-    padding: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #438aaf;
-    color: #1f2f34;
-}
-.header h1 {
-    display: inline-block;
-    font-size: 40px;
-}
-.header h2 {
-display: inline;
-}
-.header nav {
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: aqua;
 
-    padding-top: 20px;
-    margin-right: 10px;
-    float: right;
+
+}
+
+
+header a {
+  
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15px 25px;
+    color: grey;
     font-size: 25px;
+}
+
+
+nav a:hover {
+    color:red;
+}
+
+
+h1 {
+    justify-content: flex-start;
+    background-position: 15px;
+    color: black;
+    font-size: 40px;
 
 }
-.header nav ul li {
-
+.content {
     display: inline-block;
-    margin-left: 25px;
+    flex-wrap: nowrap;
 
 }
-h2 {
-    display:inline; 
-    padding: 25px;
-
+aside {
+    flex:1;
+    background-color: aquamarine;
+    padding: 20px;
 }
 
-
-p {
-    font-size: 16px;
-}
-
-
-
-.float-right {
-    float: left;
-    margin-left: 25px;
-}
-
-.main content {
-    width: 75%;
+div{
     display: block;
-    margin-left: 20px;
+    background-color: aquamarine;
+    padding: 20px;
 }
 
 
-
-.services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2b6d96;
-    color: #ffffff;
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
-
 
 
 footer {
@@ -76,11 +68,12 @@ footer {
 }
 
 
-footer h2 {
-    font-size: 20px;
+.content {
+    display: flex;
+
 }
 
-@media (min-width: 500px){
+@media (min-width: 400px){
     .contact, 
     .contact-nav{
       flex-direction: row;
