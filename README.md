@@ -27,5 +27,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ##### Mock-up
 The following image shows the web application's appearance and functionality:
 
-![Florin Alexe portofolio](./assets/images/Selected%20May%2021%202023%2000%3A32%3A37.png)
+![Florin Alexe portofolio](./assets/images/Screenshot%20July%2026%202023%2023:19:35.png)
 
